@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Suite Execution startsWed Apr 08 23:29:54 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do url navigated]]>
+    </line>
+    <line>
+      <![CDATA[validLogin script is executing:Wed Apr 08 23:30:06 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is verified]]>
+    </line>
+    <line>
+      <![CDATA[validLogin script is passed:]]>
+    </line>
+    <line>
+      <![CDATA[Suite Execution finished:Wed Apr 08 23:30:10 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Total script executed:1]]>
+    </line>
+    <line>
+      <![CDATA[Total scripts passed:]]>
+    </line>
+    <line>
+      <![CDATA[Total scripts failed:0]]>
+    </line>
+    <line>
+      <![CDATA[Total scripts skipped:0]]>
+    </line>
+    <line>
+      <![CDATA[Suite Execution startsWed Apr 08 23:30:10 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser launched]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do url navigated]]>
+    </line>
+    <line>
+      <![CDATA[validLogin script is executing:Wed Apr 08 23:30:22 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is verified]]>
+    </line>
+    <line>
+      <![CDATA[validLogin script is passed:]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30689" started-at="2020-04-08T17:59:54Z" finished-at="2020-04-08T18:00:25Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="LoginTest.validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@3e6fa38a]" name="validLogin" class="com.actitime.scripts.LoginTest"/>
+        <method signature="LoginTest.validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@57fffcd7]" name="validLogin" class="com.actitime.scripts.LoginTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test1" duration-ms="16269" started-at="2020-04-08T17:59:54Z" finished-at="2020-04-08T18:00:10Z">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@3e6fa38a]" name="preCondition" is-config="true" duration-ms="11575" started-at="2020-04-08T17:59:54Z" finished-at="2020-04-08T18:00:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@3e6fa38a]" name="validLogin" duration-ms="4639" started-at="2020-04-08T18:00:06Z" finished-at="2020-04-08T18:00:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[validLogin script is executing:Wed Apr 08 23:30:06 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[Home Page is verified]]>
+            </line>
+            <line>
+              <![CDATA[validLogin script is passed:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="14388" started-at="2020-04-08T18:00:10Z" finished-at="2020-04-08T18:00:25Z">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@57fffcd7]" name="preCondition" is-config="true" duration-ms="11649" started-at="2020-04-08T18:00:10Z" finished-at="2020-04-08T18:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser launched]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.actitime.scripts.LoginTest@57fffcd7]" name="validLogin" duration-ms="2736" started-at="2020-04-08T18:00:22Z" finished-at="2020-04-08T18:00:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[validLogin script is executing:Wed Apr 08 23:30:22 IST 2020]]>
+            </line>
+            <line>
+              <![CDATA[Home Page is verified]]>
+            </line>
+            <line>
+              <![CDATA[validLogin script is passed:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
